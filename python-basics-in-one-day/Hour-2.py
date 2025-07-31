@@ -65,7 +65,7 @@ try:
             print(i+1)
     elif number < 0:
         print(f"{number} is Negative")
-    elif number == 0:
+    else:
         print(f"{number} is Zero")
 except ValueError:
     print("Please enter an integer number.")
